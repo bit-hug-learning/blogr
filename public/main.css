@@ -1,0 +1,9 @@
+@import '../src/css/settings.css';
+@import '../src/css/variables.css';
+
+
+@import '../src/css/header.css';
+@import '../src/css/section1.css';
+@import '../src/css/section2.css';
+@import '../src/css/section3.css';
+@import '../src/css/footer.css';

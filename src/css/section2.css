@@ -1,0 +1,96 @@
+.section-2 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+
+
+}
+.section-2-img {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    position: relative;
+    height: 190px;
+
+
+}
+.section-2-img--mobile {
+    position: absolute;
+    width: 320px;
+    top: 10px;
+}
+.section-2-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 450px;
+
+    padding-top: 100px;
+
+    background: rgb(47,48,68);
+    background-color: linear-gradient(45deg, rgba(47,48,68,1) 20%, rgba(60,63,95,1) 57%);
+    background-image: url(/blogr-FrontendMentor/blogr/src/assets/images/bg-pattern-circles.svg);
+    background-repeat: no-repeat;
+    background-size: 450px;
+    background-position-y: -170px;
+    background-position-x: center;
+    border-top-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+
+
+
+}
+
+.section-title {
+
+    width: 75%;
+    font-weight: 300;    
+    font-size: 2.8rem;
+    color: white;
+    margin-top: 2rem;
+    text-align: center;
+    align-self: center;
+}
+
+.section-text {
+    align-self: center;
+    width: 80vw;
+    color: white;
+    margin: 30px 0px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.859; 
+
+}
+/* @media (min-width: var(--breakpoint-desktop)){
+    
+} */
+
+
+/* 
+@media (min-width: 425px){
+    .section-2{
+        margin-top: 90%;
+    }
+    .section-2-card > .section-title{
+        margin-top: 60px;
+        font-size: 3.4rem;
+    }
+    .section-2-card > .section-text {
+        margin-top: 40px;
+        width: 70vw;
+    }
+    .section-2-card {
+        border-top-right-radius: 25%;
+        border-bottom-left-radius: 25%;
+
+    }
+}
+@media (min-width: 768px){
+    
+}  */

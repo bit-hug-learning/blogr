@@ -1,0 +1,42 @@
+.section-3 {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    flex-direction: column;
+}
+.section-3 .section-3__image {
+    width: 320px;
+    height: 320px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: url('../assets/images/illustration-laptop-mobile.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section-3 div {
+    width: 90%;
+    max-width: 540px;
+    margin-top: 50px;
+    justify-items: center;
+    align-self: center;
+    text-align: center;
+}
+.section-3 div h3 {
+    font-family: overpass;
+    font-weight: 600;
+    color: var(--very-dark-black-blue);
+    font-size: 2.4rem;
+}
+.section-3 div p {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-family: Ubuntu;
+    font-weight: 300;
+    color: var(--very-dark-grayish-blue);
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+}

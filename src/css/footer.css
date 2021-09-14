@@ -44,3 +44,15 @@ footer .footer-links a {
     color: #c8c8cb;
     
 }
+@media (min-width: 768px){
+    footer {
+        flex-direction: row;
+        justify-content: space-evenly;
+        text-align: start;
+        padding-top: 35px;
+    }
+    footer .logo-footer {
+        align-self: flex-start;
+        margin-top: 35px;
+    }
+}

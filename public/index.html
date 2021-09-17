@@ -19,52 +19,83 @@
   </style>
 </head>
 <body>
-  <header class="header">
+  <header>
 
-    <section class="logo">
-      <img src="/src/assets/images/logo.svg" alt="logo formato svg de Blogr">
-    </section>
+    <nav class="header-logo">
+      <img src="/src/assets/images/logo.svg" alt="Blogr Logo">
+    </nav>
 
-    <section class="more-about">
-      <ul class="more-about-list">
-        <li>
-          <ul class="product list">
-            <li>Overview</li>
-            <li>Pricing</li>
-            <li>Marketplace</li>
-            <li>Features</li>
-            <li>Integrations</li>
+    <nav class="more-about">
+      <ul class="menu__links">
+        <li class="menu-item"><a href="#" class="menu__link">Product</a>
+          <ul class="menu__nesting">
+            <li>
+              <a href="#">Overview</a>
+            </li>
+            <li>
+              <a href="#">Pricing</a>
+            </li>
+            <li>
+              <a href="#">Marketplace</a>
+            </li>
+            <li>
+              <a href="#">Features</a>
+            </li>
+            <li>
+              <a href="#">Integrations</a>
+            </li>
           </ul>
         </li>
-        <li>
-          <ul class="company list">
-            <li>About</li>
-            <li>Team</li>
-            <li>Blog</li>
-            <li>Careers</li>
+
+        <li class="menu-item"><a href="#" class="menu__link">Company</a>
+          <ul class="menu__nesting">
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Team</a>
+            </li>
+            <li>
+              <a href="#">Blog</a>
+            </li>
+            <li>
+              <a href="#">Careers</a>
+            </li>
           </ul>
         </li>
-        <li>
-          <ul class="connect list">
-            <li>Contact</li>
-            <li>Newsletter</li>
-            <li>LinkedIn</li>
+
+        <li class="menu-item"><a href="#" class="menu__link">Connect</a>
+          <ul class="menu__nesting">
+            <li>
+              <a href="#">Contact</a>
+            </li>
+            <li>
+              <a href="#">Newsletter</a>
+            </li>
+            <li>
+              <a href="#">LinkedIn</a>
+            </li>
           </ul>
         </li>
       </ul>
-      <div class="user">
-        <h3>Login</h3>
-        <h3 class="button-1 button">Sign Up</h3>
-      </div>
-    </section>
-      
-    <section>
-      <h1>A modern publishing platform</h1>
-      <h2>Grow your audience and build your online brand</h2>
-      <h3 class="button-1 button">Start for Free</h3>
-      <h3 class="button-2 button">Learn More</h3>
-    </section>
 
+      <div class="button-list">
+        <button class="button-1">Login</button>
+        <button class="button-2">Sign Up</button>
+      </div>
+    </nav>
+
+    <nav>
+      <h1>A modern publishing platform</h1>
+      <h3>Grow your audience and build your online brand</h3>
+    </nav>
+      
+    <nav class="header-buttons">
+      <button class="button-2">Start for Free</button>
+      <button class="button-3">Learn More</button>
+    </nav>
+
+    <script src="/src/scripts/header.js"></script>
   </header>
 
   <main class="main">

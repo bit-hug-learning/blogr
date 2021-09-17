@@ -1,4 +1,3 @@
 header{
-    background-image: url("/src/assets/images/bg-pattern-circles.svg");
-    background-image: linear-gradient("to right, red, blue");
+    background-color: coral;
 }

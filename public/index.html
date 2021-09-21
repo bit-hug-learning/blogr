@@ -19,81 +19,91 @@
   </style>
 </head>
 <body>
-  <header>
+  <header class="header red">
+    <section class="header__top">
+      <img class="header__logo" src="/src/assets/images/logo.svg" alt="Blogr Logo">
+      <span class="header__nav-icon" aria-label="show menu"></span>
+      <nav class="header__nav-menu">
+        <ul class="header__list">
+          <li class="header__item">
+            <div class="header__dropdown">
+              <div class="header__dropdown-button">
+                Product <span class="header__dropdown-icon"></span>
+              </div>
+              <div class="header__dropdown-content">
+                <ul class="header__dropdown-list">
+                  <li class="header__dropdown-item">
+                    <a class="header__dropdown-link" href="#">Overview</a>
+                  </li>
+                  <li class="header__dropdown-item">
+                    <a class="header__dropdown-link" href="#">Pricing</a>
+                  </li>
+                  <li class="header__dropdown-item">
+                    <a class="header__dropdown-link" href="#">Marketplace</a>
+                  </li>
+                </ul>
+              </div>
+            </div> 
+          </li>
+          <li class="header__item">
+            <div class="header__dropdown">
+              <div class="header__dropdown-button">
+                Company <span class="header__dropdown-icon"></span>
+              </div>
+              <div class="header__dropdown-content">
+                <ul class="header__dropdown-list">
+                  <li class="header__dropdown-item">
+                    <a class="header__dropdown-link" href="#">CompanyXXXX</a>
+                  </li>
+                  <li class="header__dropdown-item">
+                    <a class="header__dropdown-link" href="#">Pricing</a>
+                  </li>
+                  <li class="header__dropdown-item">
+                    <a class="header__dropdown-link" href="#">Marketplace</a>
+                  </li>
+                </ul>
+              </div>
+            </div> 
+          </li>
+          <li class="header__item">
+            <div class="header__dropdown">
+              <div class="header__dropdown-button">
+                Connect <span class="header__dropdown-icon"></span>
+              </div>
+              <div class="header__dropdown-content">
+                <ul class="header__dropdown-list">
+                  <li class="header__dropdown-item">
+                    <a class="header__dropdown-link" href="#">Overview</a>
+                  </li>
+                  <li class="header__dropdown-item">
+                    <a class="header__dropdown-link" href="#">Pricing</a>
+                  </li>
+                  <li class="header__dropdown-item">
+                    <a class="header__dropdown-link" href="#">Marketplace</a>
+                  </li>
+                </ul>
+              </div>
+            </div> 
+          </li>
+        </ul>
+  
+        <section class="header__button">
+          <button class="button-1">Login</button>
+          <button class="button-2">Sign Up</button>
+        </section>
+      </nav>
+    </section>
+    
 
-    <nav class="header-logo">
-      <img src="/src/assets/images/logo.svg" alt="Blogr Logo">
-    </nav>
-
-    <nav class="more-about">
-      <ul class="menu__links">
-        <li class="menu-item"><a href="#" class="menu__link">Product</a>
-          <ul class="menu__nesting">
-            <li>
-              <a href="#">Overview</a>
-            </li>
-            <li>
-              <a href="#">Pricing</a>
-            </li>
-            <li>
-              <a href="#">Marketplace</a>
-            </li>
-            <li>
-              <a href="#">Features</a>
-            </li>
-            <li>
-              <a href="#">Integrations</a>
-            </li>
-          </ul>
-        </li>
-
-        <li class="menu-item"><a href="#" class="menu__link">Company</a>
-          <ul class="menu__nesting">
-            <li>
-              <a href="#">About</a>
-            </li>
-            <li>
-              <a href="#">Team</a>
-            </li>
-            <li>
-              <a href="#">Blog</a>
-            </li>
-            <li>
-              <a href="#">Careers</a>
-            </li>
-          </ul>
-        </li>
-
-        <li class="menu-item"><a href="#" class="menu__link">Connect</a>
-          <ul class="menu__nesting">
-            <li>
-              <a href="#">Contact</a>
-            </li>
-            <li>
-              <a href="#">Newsletter</a>
-            </li>
-            <li>
-              <a href="#">LinkedIn</a>
-            </li>
-          </ul>
-        </li>
-      </ul>
-
-      <div class="button-list">
-        <button class="button-1">Login</button>
-        <button class="button-2">Sign Up</button>
-      </div>
-    </nav>
-
-    <nav>
+    <section class="hero">
       <h1>A modern publishing platform</h1>
       <h3>Grow your audience and build your online brand</h3>
-    </nav>
+      <nav class="hero__button-container">
+        <button class="hero__button">Start for Free</button>
+        <button class="hero__button">Learn More</button>
+      </nav>
+    </section>
       
-    <nav class="header-buttons">
-      <button class="button-2">Start for Free</button>
-      <button class="button-3">Learn More</button>
-    </nav>
 
     <script src="/src/scripts/header.js"></script>
   </header>

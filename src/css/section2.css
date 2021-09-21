@@ -1,53 +1,33 @@
 .section-2 {
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
     width: 100%;
-    overflow-x: hidden;
-    overflow-y: hidden;
-
-
+    margin-top: 120px;
+    background-image: linear-gradient(45deg, rgba(47,48,68,1) 20%, rgba(60,63,95,1) 57%);
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px; 
 }
-.section-2-img--mobile {
-    display: flex;
-    width: auto;
-    justify-content: center;
-    position: relative;
-    height: 190px;
-
-
-}
-.img--mobile {
-    position: absolute;
-    width: 320px;
-    top: 10px;
-}
-
 /* Card */
 .section-2-card {
     display: flex;
     justify-content: center;
     flex-direction: column;
-
-    height: 450px;
-
-    padding-top: 100px;
-
-    background: rgb(47,48,68);
-    background-color: linear-gradient(45deg, rgba(47,48,68,1) 20%, rgba(60,63,95,1) 57%);
-    background-image: url(/blogr-FrontendMentor/blogr/src/assets/images/bg-pattern-circles.svg);
-    background-repeat: no-repeat;
-    background-size: 450px;
-    background-position-y: -170px;
-    background-position-x: center;
-    border-top-right-radius: 15%;
-    border-bottom-left-radius: 15%;
-
-
-
+    background: url("../assets/images/bg-pattern-circles.svg") center -160px/cover no-repeat;
+    
 }
+.section-2__figure {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    position: relative;
+    height: 200px;
+}
+.section-2__image {
+    position: relative;
+    width: 320px;
+    height: 320px;
+    top: -100px;
+    z-index: 1;
+}
+
 .section-2-text{
     width: 75%;
     font-weight: 300;    
@@ -58,7 +38,6 @@
     align-self: center;
 }
 .section-title {
-
     font-weight: 300;    
     font-size: 2.8rem;
     color: white;
@@ -81,51 +60,20 @@
     display: none;
 }
 
-
 @media (min-width: 768px){
-    .section-2-img--mobile{
-        display: none;
-    }
     .section-2-card{
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
         padding: 0;
-
+        max-width: 1200px;
+        margin: 0 auto;
         height: calc(350px + 0.5vh);
-        margin: 20px 0;
-
-
-        
         background-size: 580px;
         background-position-y: -170px;
         background-position-x: left;
-
     }
-    .card-img{ 
-        display: flex;
 
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-
-
-       position: relative;
-        
-        width: 40%;
-        height: 90%;
-
-        bottom: 50px
-        
-    }
-    .img--mobile{
-        position: absolute;
-        height: 135%;
-        width: fit-content;
-        bottom: 290px;
-        
-
-    }
     .section-2-text{
         margin: 0;
         width: 35%;
@@ -145,118 +93,3 @@
 
 }
 
-
-
-/* 
-@media (min-width: 768px){
-    .section-2 {
-        flex-direction: row;
-        justify-content: left;
-        margin-top: -200px;
-    
-    }
-    .section-2-img {
-        display: flex;
-        position: relative;
-        height: 300px;
-        width: 450px;
-
-        margin-left: 5%;
-        
-    
-    
-    }
-    .section-2-img--mobile {
-        position: absolute;
-        height: 22vh;
-        top: 250px;
-
-    }
-    .section-2-card {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-
-        width: 100vw;
-        
-        height: 20vh;
-    
-        padding-top: 100px;
-    
-        background: rgb(47,48,68);
-        background-color: linear-gradient(45deg, rgba(47,48,68,1) 20%, rgba(60,63,95,1) 57%);
-        background-image: url(/blogr-FrontendMentor/blogr/src/assets/images/bg-pattern-circles.svg);
-        background-repeat: no-repeat;
-        background-size: 550px;
-        background-position-y: -170px;
-        background-position-x: left;
-        border-top-right-radius: 20%;
-        border-bottom-left-radius: 20%;
-
-        padding:  0 10%;
-    
-    
-    
-    }
-    
-    .section-title {
-    
-        width: 40vw;
-        font-weight: 300;    
-        font-size: 2.8rem;
-        color: white;
-        margin-top: 2rem;
-        text-align: center;
-        align-self: flex-end;
-    }
-    
-    .section-text {
-        width: 40vw;
-        text-align: left;
-        font-size: 1.6rem;
-        font-weight: 300;
-        line-height: 1.859; 
-        align-self: flex-end;
-
-    
-    }
-    
-}
-
-@media (min-width: 1024px){
-    .section-2-img--mobile {
-        max-width: 460px;
-
-    }
-    .section-2-card {
-        background-size: 750px;
-        
-    }
-}
- */
-
-
-
-
-/* 
-@media (min-width: 425px){
-    .section-2{
-        margin-top: 90%;
-    }
-    .section-2-card > .section-title{
-        margin-top: 60px;
-        font-size: 3.4rem;
-    }
-    .section-2-card > .section-text {
-        margin-top: 40px;
-        width: 70vw;
-    }
-    .section-2-card {
-        border-top-right-radius: 25%;
-        border-bottom-left-radius: 25%;
-
-    }
-}
-@media (min-width: 768px){
-    
-}  */

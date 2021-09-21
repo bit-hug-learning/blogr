@@ -22,6 +22,14 @@
     background: url("../assets/images/icon-close.svg") center/cover no-repeat;
     transform: rotate(180deg);
 }
+
+.header__dropdown-icon{
+    display: inline;
+    width: 8px;
+    height: auto;
+    background: url("../assets/images/icon-arrow-dark.svg") center/cover no-repeat;
+}
+
 .header__nav-menu {
     display: flex;
     flex-direction: column;
@@ -44,6 +52,11 @@
 .header__list,.header__dropdown-item {
     list-style-type: none;
 }
+
+.header__dropdown-item{
+    margin: 15px;
+}
+
 .header__dropdown {
     text-align: center;
 }
@@ -53,9 +66,23 @@
 .header__dropdown-content {
     display: none;
     padding: 10px;
+    width: 250px;
     background-color: rgb(227, 227, 227);
 }
 .header__dropdown-content.is-clicked {
     display: block;
 }
 
+.header__line{
+    margin: 20px;
+    width: 250px;
+}
+
+.header__button{
+    display: flex;
+    flex-direction: column;
+}
+
+.button-1,.button-2{
+    margin: 10px;
+}

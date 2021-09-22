@@ -46,6 +46,9 @@
 }
 
 @media (min-width: 768px){
+    main {
+        height: 3000px;
+    }
     .section-1__body{
         flex-direction: row-reverse;
         align-items: center;
@@ -62,7 +65,7 @@
     }
     .section-1__picture {
         position: relative;
-        top: 0;
+        top: 0px;
         right: -70px;
         width: 500px;
     }

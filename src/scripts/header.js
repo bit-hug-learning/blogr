@@ -2,13 +2,12 @@ const navButton = document.querySelector(".header__nav-icon");
 const navMenu = document.querySelector(".header__nav-menu");
 const dropDownButtons = document.querySelectorAll(".header__dropdown-button");
 const dropDownContents = document.querySelectorAll(".header__dropdown-content");
-console.log(dropDownButtons)
 
 navButton.addEventListener("click", hideShow);
 
 dropDownButtons.forEach(dropDownButton => dropDownButton.addEventListener("click", function dropDown() {
   dropDownButton.nextElementSibling.classList.toggle("is-clicked");
-  // console.log(dropDownButton.nextElementSibling)
+  dropDownButton.firstElementChild.classList.toggle("is-clicked");
 }));
 
 function hideShow() {

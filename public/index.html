@@ -19,9 +19,104 @@
   </style>
 </head>
 <body>
-  <header class="header">
+  <header class="header red">
+    <section class="header__top">
+      <img class="header__logo" src="/src/assets/images/logo.svg" alt="Blogr Logo">
+      <span class="header__nav-icon" aria-label="show menu"></span>
+      <nav class="header__nav-menu">
+        <ul class="header__list">
+          <li class="header__item">
+            <div class="header__dropdown">
+              <div class="header__dropdown-button">
+                Product <span class="header__dropdown-icon"></span>
+              </div>
+              <div class="header__dropdown-content">
+                <ul class="header__dropdown-list">
+                  <li class="header__dropdown-item">
+                    <a class="header__dropdown-link" href="#">Overview</a>
+                  </li>
+                  <li class="header__dropdown-item">
+                    <a class="header__dropdown-link" href="#">Pricing</a>
+                  </li>
+                  <li class="header__dropdown-item">
+                    <a class="header__dropdown-link" href="#">Marketplace</a>
+                  </li>
+                  <li class="header__dropdown-item">
+                    <a class="header__dropdown-link" href="#">Features</a>
+                  </li>
+                  <li class="header__dropdown-item">
+                    <a class="header__dropdown-link" href="#">Integrations</a>
+                  </li>
+                </ul>
+              </div>
+            </div> 
+          </li>
+          <li class="header__item">
+            <div class="header__dropdown">
+              <div class="header__dropdown-button">
+                Company <span class="header__dropdown-icon"></span>
+              </div>
+              <div class="header__dropdown-content">
+                <ul class="header__dropdown-list">
+                  <li class="header__dropdown-item">
+                    <a class="header__dropdown-link" href="#">About</a>
+                  </li>
+                  <li class="header__dropdown-item">
+                    <a class="header__dropdown-link" href="#">Team</a>
+                  </li>
+                  <li class="header__dropdown-item">
+                    <a class="header__dropdown-link" href="#">Blog</a>
+                  </li>
+                  <li class="header__dropdown-item">
+                    <a class="header__dropdown-link" href="#">Careers</a>
+                  </li>
+                </ul>
+              </div>
+            </div> 
+          </li>
+          <li class="header__item">
+            <div class="header__dropdown">
+              <div class="header__dropdown-button">
+                Connect <span class="header__dropdown-icon"></span>
+              </div>
+              <div class="header__dropdown-content">
+                <ul class="header__dropdown-list">
+                  <li class="header__dropdown-item">
+                    <a class="header__dropdown-link" href="#">Contact</a>
+                  </li>
+                  <li class="header__dropdown-item">
+                    <a class="header__dropdown-link" href="#">Newsletter</a>
+                  </li>
+                  <li class="header__dropdown-item">
+                    <a class="header__dropdown-link" href="#">LinkedIn</a>
+                  </li>
+                </ul>
+              </div>
+            </div> 
+          </li>
+        </ul>
+        <hr class="header__line">
+        <section class="header__button">
+          <button class="button-1">Login</button>
+          <button class="button-2">Sign Up</button>
+        </section>
+      </nav>
+    </section>
+    
 
+    <section class="hero">
+      <h1>A modern publishing platform</h1>
+      <h3>Grow your audience and build your online brand</h3>
+      <nav class="hero__button-container">
+        <button class="hero__button">Start for Free</button>
+        <button class="hero__button">Learn More</button>
+      </nav>
+    </section>
+      
+
+    <script src="/src/scripts/header.js"></script>
   </header>
+
   <main class="main">
     <section class="section-1">
       <!-- Section 1  -->
@@ -83,9 +178,13 @@
       </div>
     </section>
   </main>
+
   <footer class="footer">
 
   </footer>
-
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
 </body>
 </html>

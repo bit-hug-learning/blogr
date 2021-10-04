@@ -1,7 +1,8 @@
 .header{
     padding: 20px;
-    background-image: linear-gradient(135deg, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
-    height: 1000px;
+    background: linear-gradient(135deg, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    height: 500px;
+    border-radius: 0 0 0 100px;
     /* overflow-x: hidden; */
 }
 
@@ -9,9 +10,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 30px;
 }
 .header__logo {
-
+    width: 75px;
 }
 .header__nav-icon {
     display: inline-block;
@@ -113,6 +115,40 @@
     margin: 10px;
 }
 
+.hero {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+
+}
+.hero h1 {
+    font-family: overpass;
+    font-size: 3rem;
+}
+.hero h3 {
+    margin-top: 20px;
+    font-family: overpass;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+.hero__button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.hero__button{
+    width: 40%;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: initial;
+    color: white;
+    font-family: overpass;
+    font-weight: 300;
+    font-size: 1.4rem;
+}
 
 @media screen and (min-width: 340px) {
     .header__nav-menu.is-active {

@@ -149,7 +149,13 @@
     font-weight: 300;
     font-size: 1.4rem;
 }
-
+.hero__button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #ff4e5a;    
+    font-weight: 500;
+    font-size: 1.4rem;
+}
 @media screen and (min-width: 340px) {
     .header__nav-menu.is-active {
         left: calc( 50vw - 150px );

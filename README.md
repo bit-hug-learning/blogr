@@ -1,5 +1,14 @@
 # Frontend Mentor - Blogr landing page
 
+**Gonzalo Vidal** [Project Manager]: Initial Setup (Creation new GitHub repository, the markup in HTML and settings & variables in CSS configuration).
+
+**Eduardo Flores**: Header, Section 3 and Footer.
+
+**Walter Díaz**: Section 1 and Section 2.
+
+**Carlos Machicado**: Header.
+
+
 ![Design preview for the Blogr landing page coding challenge](https://i.postimg.cc/w3YjVRgh/desktop-preview.jpg)
 
 ## Welcome! 👋

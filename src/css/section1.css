@@ -46,8 +46,8 @@
 }
 
 @media (min-width: 768px){
-    main {
-        height: 3000px;
+    .section-1 {
+        overflow-x: hidden;
     }
     .section-1__body{
         flex-direction: row-reverse;
@@ -66,8 +66,8 @@
     .section-1__picture {
         position: relative;
         top: 0px;
-        right: -70px;
-        width: 500px;
+        right: -120px;
+        width: 800px;
     }
     .section-1__image {
         width: 100%;

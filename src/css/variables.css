@@ -8,5 +8,5 @@
   --very-dark-black-blue: hsl(240, 10%, 16%);
 
   --breakpoint-mobile: 375px;
-  --breakpoint-desktop: 1440px;
+  --breakpoint-desktop: 768px;
 }

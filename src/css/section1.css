@@ -13,18 +13,10 @@
     margin-top: 20px;
     margin-bottom: 30px;
 }
-#prueba.section-1-prueba {
-    color: rgb(255, 193, 193) ;
-}
-#prueba {
-    color: rgb(116, 0, 0) ; 
-}
-
 .section-1__picture {
     align-self: center;
     width: 310px;
 }
-
 .section-1-text-containers {
     width: 80vw;
     max-width: 400px;
